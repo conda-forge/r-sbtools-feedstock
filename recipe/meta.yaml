@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.3.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sbtools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sbtools/sbtools_{{ version }}.tar.gz
-  sha256: 4f75b9c0321261f40b0c53fabd282ca9142f68fc0f6bdb9b33c5353f883aff6f
+  sha256: 272b4f6ce77fff83b504463cd4807801035f67d97965498386138caf7252f77c
 
 build:
   merge_build_host: true  # [win]
