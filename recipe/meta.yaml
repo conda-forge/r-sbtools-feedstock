@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/sbtools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/sbtools/sbtools_{{ version }}.tar.gz
-  sha256: 733040a38f3dd68d9111f38a531cde7abf8e793b99a79cc9e4cb4548f8a5b314
+  sha256: 5d454f10b231aba810114dbb1128bd470469b0fff351d592441fac742c449e3f
 
 build:
   number: 0
